@@ -1,0 +1,2 @@
+require("tpet")
+print("hello")
