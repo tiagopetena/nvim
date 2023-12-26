@@ -1,2 +1,1 @@
 require("tpet")
-print("hello")
