@@ -19,7 +19,13 @@ require("lazy").setup({
     },
 
 
-    { "rose-pine/nvim", name = "rose-pine"},
+    { 
+        "rose-pine/neovim",
+        name = "rose-pine",
+        config = function()
+            vim.cmd('colorscheme rose-pine')
+        end
+    },
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 	{ 'nvim-treesitter/playground' },
 	{ 'theprimeagen/harpoon' },
